@@ -10,9 +10,9 @@ p{
      font-family: 'Montserrat', sans-serif;
     position: absolute;
 }
-/*html{
+html{
     scroll-behavior: smooth;
-}*/
+}
 a:link {
 	color: black;
     text-decoration: none;
