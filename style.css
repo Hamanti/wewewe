@@ -1,0 +1,665 @@
+/* HTML SETTING */
+.bodystyle{
+    margin: 0;
+    width: 100%;
+    min-width: 1050px;
+    height: 4000px;
+}
+p{
+    position: absolute;
+     font-family: 'Montserrat', sans-serif;
+    position: absolute;
+}
+/*html{
+    scroll-behavior: smooth;
+}*/
+a:link {
+	color: black;
+    text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+a:visited {
+    text-decoration: none;
+	color: black;
+}
+button:active, button:focus {
+  outline: none;
+  background-color: rgba(196, 196, 196, 0.3);
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+
+
+/* ONE BLOCK */
+.oneblockmain {
+
+}
+/* TEXT */
+.txtmainheader{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+    width: 500px;
+}
+.txttwoheader{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 50px;
+    width: 500px;
+}
+.txtinfoheader{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    width: 500px;
+    margin-top: 190px;
+}
+.txtnumberheader{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 500px;
+    width: 500px;
+}
+/* IMG */
+.imgoneblockset{
+    width: 100%;
+    height:100vh;
+    
+}
+
+
+/* TWO BLOCK */
+#catalog {
+    margin-top: 0px;
+    height: 1500px;
+    margin-left: 100px;
+}
+/* TEXT */
+.two_maindiv {
+    width: 100%;
+    height: 520px;
+}
+.two_header {
+    margin: 0; 
+    padding-left: 95px;
+}
+.two_imgcontact {
+    width: 30px; 
+    height: 30px; 
+    position: absolute;
+}
+.two_textcontanct {
+    position: absolute;
+    margin-left: 40px; 
+    margin-top: 5px; 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 400;
+}
+.two_twotr {
+    margin-top: -20px; 
+    position: absolute; 
+    width: 100px;
+}
+.two_paddingleft {
+    padding-left: 20px;
+}
+.two_maininfo {
+    margin-left: 95px;
+    position: absolute; 
+    margin-top: 120px;
+    width: 50%
+}
+.two_imginfoone {
+    position: absolute; 
+    transform: scale(0.65);
+    margin-left: 180px;
+    margin-top: -65px; 
+    height: 327px;
+    width: 307px; 
+}
+
+.two_imginfoone:hover {
+      transform: scale(0.75);
+    transition: 0.5s;
+}
+.two_imginfotwo {
+    position: absolute; 
+    transform: scale(0.65);
+    height: 405px; 
+    width: 306px;
+    margin-left: 50px;
+}
+
+.two_imginfotwo:hover {
+      transform: scale(0.75);
+    transition: 0.5s;
+}
+.two_buttoncatalog {
+   margin-left: 100px;
+    margin-top: 350px;
+}
+.two_settingbutton {
+    margin: 0;
+    color: white;
+    transform: scale(1); 
+}
+.two_tdinfo {
+    position: absolute;
+    margin-left: 150px; 
+    
+}
+.two_tdcontact {
+    margin-left: 400px; 
+    position: absolute; 
+    margin-top: 35px;
+}
+.txtheadername{
+      font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 25px;
+
+}
+.txtheaderdopname{
+      font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 13px;
+    font-weight: 400;
+}
+.txtheaderinfo{
+      font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 25px;
+    position: relative;
+    margin-top: 15px;
+}
+.tablesmenu{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-left: 95px;
+}
+#divtxtname{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+#divtxtmain{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.divimg{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 560px;
+}
+/* BUTTON */
+#buttonbuy{
+    border-color: rgba(196, 196, 196, 0);
+    border-bottom-color: rgba(196, 196, 196, 0);
+    position: absolute;
+    color: white;
+    width: 240px;
+    height: 60px;
+    background: #DF4A4A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#buttonbuy:hover
+{
+    background: white;
+    color: black;
+    border-color: rgba(0, 0, 0, 1);
+    border-bottom-color: rgba(0, 0, 0, 1);
+    border-bottom-width: 2px;
+    transition: 0.5s;
+}
+
+
+/* THREE BLOCK */
+/* TEXT */
+.three_onetovar {
+    position: absolute; 
+    margin-left: 250px; 
+    width: 500px
+}
+.three_onetovarheadtext {
+    position: absolute; 
+    font-size: 30px;
+    font-weight: 600; 
+    margin-top: -300px;
+}
+.three_onetovarinfotext {
+    position: absolute; 
+    margin-top: -220px; 
+    font-weight: 500; 
+    font-size: 18px;
+    color: #828282;
+    width: 500px;
+}
+.three_onetovarcolorstext {
+    position: absolute;  
+    margin-top: -90px; 
+    font-weight: 500; 
+    font-size: 14px;
+}
+.three_onetovarcerclecolors {
+    margin-top: -60px;
+    display: flex;
+    grid-gap: 25px;
+}
+.three_twotovar {
+    position: absolute; 
+    margin-left: 0px;
+    width: 500px
+}
+.three_twotovarheadtext {
+    position: absolute; 
+    font-size: 30px;
+    font-weight: 600; 
+    margin-top: 0;
+}
+.three_twotovarinfotext {
+    position: absolute; 
+    margin-top: 70px; 
+    font-weight: 500; 
+    font-size: 18px;
+    color: #828282;
+    width: 500px;
+}
+.three_twotovarcolorstext {
+    position: absolute; 
+    margin-top: 210px; 
+    font-weight: 500;
+    font-size: 14px;
+}
+.three_twotovarcerlcecolors {
+    margin-top: 240px;
+    display: flex;
+    grid-gap: 25px;
+}
+.three_onetovarcosttext {
+    position:  absolute;
+    margin-top: -255px; 
+    font-weight: 500; 
+    font-size: 18px;
+    color: #FF6868;
+}
+.three_twotovarcosttext {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 2px;
+    font-weight: 500; 
+    font-size: 18px;
+    color: #FF6868;
+}
+#headermain{
+      font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+#divblock{
+    position: absolute;
+    text-align: left;
+    margin-top: 95px;
+
+}
+img{
+   width: 200px;
+    height: 300px;
+}
+/* CERCLE COLORS */
+#cbel{
+    width: 35px; 
+height: 35px;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 50%;
+}
+#cser{
+    width: 35px; 
+height: 35px;
+background: #464646;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 50%;
+}
+#cbej{
+    width: 35px; 
+height: 35px;
+background: #E9C287;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 50%;
+}
+#csin{
+    width: 35px; 
+height: 35px;
+background: #6EADD0;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 50%;
+}
+#csir{
+    width: 35px; 
+height: 35px;
+background: #9DBBE9;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 50%;
+}
+#croz{
+    width: 35px; 
+height: 35px;
+background: #E3A7A7;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 50%;
+}
+#cbel:hover{
+        width: 45px; 
+    height: 45px;
+    transition: 0.5s;
+}
+#cser:hover{
+        width: 45px; 
+    height: 45px;
+    transition: 0.5s;
+}
+#cbej:hover{
+        width: 45px; 
+    height: 45px;
+    transition: 0.5s;
+}
+#csin:hover{
+        width: 45px; 
+    height: 45px;
+    transition: 0.5s;
+}
+#csir:hover{
+        width: 45px; 
+    height: 45px;
+    transition: 0.5s;
+}
+#croz:hover{
+        width: 45px; 
+    height: 45px;
+    transition: 0.5s;
+}
+
+/* FOUR BLOCK */
+#review {
+    margin-top: 2550px;
+}
+#headzagalovok {
+    height: 538px;
+    width: 100%;
+}
+/* TEXT */
+#revtxtmain{
+    text-align: center;
+    margin-top: -50px;
+    width: 400px;
+    font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+    font-weight: 500;
+}
+#inputname{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #8F8F8F;
+    background: #DADADA;
+    width: 400px;
+    border: 0;
+    border-bottom-color: rgb(0, 0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0, 0);
+    outline: none;
+    padding-left: 15px;
+}
+#divinputrev {
+    height: 1000px;
+    
+}
+.headblocktext {
+    margin-top: -550px; 
+    padding-left:100px; 
+    height: 538px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.imghover {
+    
+}
+.imghover:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
+.four_header {
+    margin-left: -60px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+}
+
+.four_iconback {
+    width: 35px;
+    height: 35px;
+}
+
+#qustion {
+    margin-left: 100px;
+}
+
+.four_mainblocks {
+    display: flex;
+    grid-gap: column;
+}
+
+.four_inputFIO {
+    height: 25px;
+    border-radius: 50px;
+}
+
+.four_inputcontentquestion {
+    margin: 0;
+    height: 100px;
+    resize: vertical;
+    min-height: 100px;
+    max-height: 150px;
+    border-radius: 30px;
+}
+
+.four_blockone {
+    width: 400px;
+    margin: 0;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 30px;
+}
+
+#buttonseyqustion {
+    
+    margin-left: 100px;
+width: 165px;
+height: 36px;
+border-bottom-color: rgb(0, 0, 0, 0);
+    border-color: rgb(0, 0, 0, 0);
+background: #84EF89;
+box-shadow: 0px 0px 4px 4px rgba(5, 255, 0, 0.25);
+border-radius: 50px;
+    
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500;
+}
+
+.two_buttontext {
+
+}
+
+#inputcontentqustion {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #8F8F8F;
+    background: #DADADA;
+    width: 400px;
+    border: 0;
+    border-bottom-color: rgb(0, 0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0, 0);
+    outline: none;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.two_buttonqustion {
+    width: 500px;
+    margin: 0;
+}
+
+.four_blocks {
+    display: flex;
+    grid-gap: 65px;
+}
+
+.four_slider {
+    height: 345px; 
+width: 350px;
+    margin-top: 80px;
+background: #fff;
+overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 50px;
+}
+
+.four_slider::-webkit-scrollbar{
+      width: 4px; /* ширина для вертикального скролла */
+    height: 20px; /* высота для горизонтального скролла */
+    background-color: #C4C4C4;
+    border-radius: 50px;
+}
+
+.four_slider::-webkit-scrollbar-thumb {
+    width: 4px;
+    height: 4px;
+    background-color: #707070;
+    border-radius: 50px;
+}
+
+.four_slider::-webkit-scrollbar-thumb:hover {
+    background-color: #707070;
+    border-radius: 50px;
+}
+
+.four_palkaimg {
+    background-color: black;
+    width: 2px;
+    height: 400px;
+    margin-top: 25px;
+    margin-left: -55px;
+}
+
+.four_questionblock {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 15px;
+}
+
+.four_question_author {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+    font-size: 18px;
+}
+
+.four_question_contect {
+    margin-top: -10px;
+    align-content: middle;
+    width: 300px;
+    height: 50px;
+    background-color: #E1E1E1;
+    border-radius: 50px;
+}
+
+.four_question_contect_text {
+    position: inherit;
+    font-family: 'Montserrat', sans-serif;
+     font-weight: 500;
+    margin: 10px 0;
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+.four_question_answerhead {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #ABABAB;
+}
+
+.four_question_answercontent {
+    margin-top: -12px;
+        width: 300px;
+    height: 25px;
+    background-color: #D8DEFF;
+    border-radius: 50px;
+}
+
+.four_question_answer_text {
+    position: inherit;
+      font-family: 'Montserrat', sans-serif;
+     font-weight: 500;
+    margin: 5px 0;
+    font-size: 13px;
+    padding-left: 15px;
+}
